@@ -1,0 +1,101 @@
+{
+  "guid": "6655930d-528f-4536-83ed-ea2080f88db8",
+  "liveboard": {
+    "layout": {
+      "tabs": [
+        {
+          "description": "",
+          "name": "Tab 1"
+        },
+        {
+          "description": "",
+          "name": "Tab 2",
+          "tiles": [
+            {
+              "height": 8,
+              "visualization_id": "Viz_1",
+              "width": 12,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "description": "",
+          "name": "Tab 3"
+        },
+        {
+          "description": "",
+          "name": "Tab 4"
+        }
+      ]
+    },
+    "name": "Live2",
+    "visualizations": [
+      {
+        "answer": {
+          "answer_columns": [
+            {
+              "name": "ORDER_ID"
+            },
+            {
+              "name": "REGION"
+            }
+          ],
+          "chart": {
+            "axis_configs": [
+              {
+                "x": [
+                  "REGION"
+                ],
+                "y": [
+                  "ORDER_ID"
+                ]
+              }
+            ],
+            "chart_columns": [
+              {
+                "column_id": "ORDER_ID"
+              },
+              {
+                "column_id": "REGION"
+              }
+            ],
+            "client_state": "",
+            "client_state_v2": "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"ORDER_ID\",\"columnProperty\": {}},{\"columnId\": \"REGION\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ae206eac-c83f-40ac-915f-cb51444801e0\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"ORDER_ID\"],\"isOpposite\": false}},{\"id\": \"cec0c035-4a6b-4cea-88db-13ba30e8c007\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"REGION\"]}}]}",
+            "type": "SCATTER"
+          },
+          "display_mode": "TABLE_MODE",
+          "name": "ORDER_ID, REGION",
+          "search_query": "[ORDER_ID] [REGION]",
+          "table": {
+            "client_state": "",
+            "client_state_v2": "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"ORDER_ID\",\"columnProperty\": {}},{\"columnId\": \"REGION\",\"columnProperty\": {}}]}",
+            "ordered_column_ids": [
+              "ORDER_ID",
+              "REGION"
+            ],
+            "table_columns": [
+              {
+                "column_id": "ORDER_ID",
+                "show_headline": false
+              },
+              {
+                "column_id": "REGION",
+                "show_headline": false
+              }
+            ]
+          },
+          "tables": [
+            {
+              "id": "RETURNS",
+              "name": "RETURNS"
+            }
+          ]
+        },
+        "id": "Viz_1",
+        "viz_guid": "a11877bc-6d3f-4441-a348-7bddeeaa061e"
+      }
+    ]
+  }
+}

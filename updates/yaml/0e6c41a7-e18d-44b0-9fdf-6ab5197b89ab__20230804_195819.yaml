@@ -1,0 +1,103 @@
+{
+  "guid": "0e6c41a7-e18d-44b0-9fdf-6ab5197b89ab",
+  "liveboard": {
+    "layout": {
+      "tiles": [
+        {
+          "size": "LARGE",
+          "visualization_id": "Viz_1"
+        }
+      ]
+    },
+    "name": "join_check_live_new",
+    "visualizations": [
+      {
+        "answer": {
+          "answer_columns": [
+            {
+              "name": "Order Id"
+            },
+            {
+              "name": "Customer Name"
+            },
+            {
+              "name": "Returned"
+            },
+            {
+              "name": "if_returned"
+            }
+          ],
+          "chart": {
+            "axis_configs": [
+              {
+                "color": [
+                  "Returned"
+                ],
+                "x": [
+                  "Order Id"
+                ],
+                "y": [
+                  "if_returned"
+                ]
+              }
+            ],
+            "chart_columns": [
+              {
+                "column_id": "Order Id"
+              },
+              {
+                "column_id": "Customer Name"
+              },
+              {
+                "column_id": "Returned"
+              },
+              {
+                "column_id": "if_returned"
+              }
+            ],
+            "client_state": "",
+            "type": "SCATTER"
+          },
+          "display_mode": "TABLE_MODE",
+          "name": "Order Id, Customer Name, Returned, if_returned",
+          "search_query": "[Order Id] [Customer Name] [Returned] [if_returned]",
+          "table": {
+            "client_state": "",
+            "ordered_column_ids": [
+              "Order Id",
+              "Customer Name",
+              "Returned",
+              "if_returned"
+            ],
+            "table_columns": [
+              {
+                "column_id": "Order Id",
+                "show_headline": false
+              },
+              {
+                "column_id": "Customer Name",
+                "show_headline": false
+              },
+              {
+                "column_id": "Returned",
+                "show_headline": false
+              },
+              {
+                "column_id": "if_returned",
+                "show_headline": false
+              }
+            ]
+          },
+          "tables": [
+            {
+              "id": "join_check_ws_new",
+              "name": "join_check_ws_new"
+            }
+          ]
+        },
+        "id": "Viz_1",
+        "viz_guid": "b8c2be30-13ea-49df-9956-51a4ef626ad3"
+      }
+    ]
+  }
+}

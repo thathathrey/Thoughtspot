@@ -1,0 +1,93 @@
+{
+  "guid": "ce7f1ecd-6f0d-4964-bd5c-5d558c72184f",
+  "liveboard": {
+    "layout": {
+      "tabs": [
+        {
+          "description": "",
+          "name": "Tab 1",
+          "tiles": [
+            {
+              "height": 8,
+              "visualization_id": "Viz_1",
+              "width": 6,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "description": "",
+          "name": "Tab 2"
+        }
+      ]
+    },
+    "name": "Live5",
+    "visualizations": [
+      {
+        "answer": {
+          "answer_columns": [
+            {
+              "name": "PLANT_NAME"
+            },
+            {
+              "name": "Total HIGH_END_OF_RANGE"
+            }
+          ],
+          "chart": {
+            "axis_configs": [
+              {
+                "x": [
+                  "PLANT_NAME"
+                ],
+                "y": [
+                  "Total HIGH_END_OF_RANGE"
+                ]
+              }
+            ],
+            "chart_columns": [
+              {
+                "column_id": "PLANT_NAME"
+              },
+              {
+                "column_id": "Total HIGH_END_OF_RANGE"
+              }
+            ],
+            "client_state": "",
+            "client_state_v2": "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"PLANT_NAME\",\"columnProperty\": {}},{\"columnId\": \"Total HIGH_END_OF_RANGE\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"7486d434-1ba1-4a41-a2c5-82660d3202e8\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total HIGH_END_OF_RANGE\"],\"isOpposite\": false}},{\"id\": \"de3d3a67-05a7-4648-a3e6-e91a10605e81\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"PLANT_NAME\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total HIGH_END_OF_RANGE\",\"color\": \"#48D1E0\"}]}",
+            "type": "COLUMN"
+          },
+          "display_mode": "CHART_MODE",
+          "name": "Total HIGH_END_OF_RANGE by PLANT_NAME",
+          "search_query": "[PLANT_NAME] [HIGH_END_OF_RANGE]",
+          "table": {
+            "client_state": "",
+            "client_state_v2": "{\"tableVizPropVersion\": \"V1\"}",
+            "ordered_column_ids": [
+              "PLANT_NAME",
+              "Total HIGH_END_OF_RANGE"
+            ],
+            "table_columns": [
+              {
+                "column_id": "PLANT_NAME",
+                "show_headline": false
+              },
+              {
+                "column_id": "Total HIGH_END_OF_RANGE",
+                "show_headline": false
+              }
+            ]
+          },
+          "tables": [
+            {
+              "id": "VEGETABLE",
+              "name": "VEGETABLE"
+            }
+          ]
+        },
+        "id": "Viz_1",
+        "viz_guid": "69ac4557-a666-414e-a53f-aaaf7b6fc8c9"
+      }
+    ]
+  }
+}
